@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>16- Descontruindo Objetos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 id="titulo">16- Descontruindo Objetos</h1>
+
+    <div>
+      <code>
+        let pessoa = { nome: "Aironys", sobrenome:"Garrido de Macedo", idade:31,
+        social:{ facebook:'aironysgarrido', instagram:{ url:'@aironn$',
+        seguidores:2500 } }, nomeCompleto: function (){ return `${this.nome}
+        ${this.sobrenome}`; } } console.log(pessoa.nome);
+        console.log(pessoa.sobrenome); console.log(pessoa.nomeCompleto()); /*let
+        {facebook, instagram} = pessoa.social; console.log(facebook,
+        instagram);*/ /*let {nome, idade, social:{instagram:{url:instagram,
+        seguidores}}} = pessoa;*/ /* let {nome, idade, social:{instagram}} =
+        pessoa; console.log(nome, idade, instagram);*/ function
+        pegarNomeCompleto(obj){ return obj.nome + `${obj.sobrenome}`; }
+        console.log( pegarNomeCompleto(pessoa));
+      </code>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

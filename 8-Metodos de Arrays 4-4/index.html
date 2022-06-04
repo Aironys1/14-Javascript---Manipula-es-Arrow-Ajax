@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Métodos de Arrays 4-4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 id="titulo">Métodos de Arrays 4-4</h1>
+
+    <div>
+      <span>
+        let lista = [50,8,10,14,25]; let lista2 =[]; lista2 =
+        lista.findIndex(function(item){ return(item == 25) ? true : false; });
+      </span>
+      <p>find</p>
+      <span>Só o find, ele encontra o valor</span>
+      <p>findIndex</p>
+      <p>Com o index ele vai encontrar a posição do valor</p>
+    </div>
+
+    <div>
+      <p>Outra forma de usar o fine</p>
+
+      <span>
+        let lista = [ {id:1, nome:"Alessandro", sobrenome:"Santos", idade:35},
+        {id:2, nome:"Maria", sobrenome:"Silva", idade:55}, {id:3, nome:"Marcos",
+        sobrenome:"Ferreira", idade:45}, ]; let pessoa =
+        lista.find(function(item){ return (item.sobrenome === "Ferreira") ? true
+        : false; })
+      </span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

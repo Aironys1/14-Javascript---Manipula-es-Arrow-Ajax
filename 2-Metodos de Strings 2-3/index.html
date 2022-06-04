@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos de Strings 2-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="titulo">Métodos de Strings 2-3</h1>
+    <p>Exemplo 1</p>
+
+    <div>
+        <code>
+            let nome = "Aironys Garrido ";
+            let resultado = nome.slice(0,12); // O slice ele pega a posição inicial até a posição final.
+            //Se colocar o número negativo ele começa no final da string;
+
+            console.log(resultado);
+        </code>
+    </div>
+    <div>
+        <code>
+            let nome2 = "Aironys Garrido ";
+            let resultado2 = nome2.substring(0,13); // Quase igual ao slice.
+
+            console.log(resultado2);
+        </code>
+    </div>
+    <div>
+        <code>
+            let nome3 = "Aironys Garrido ";
+            let resultado3 = nome3.substring(4,11);
+            console.log(resultado3);
+        </code>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

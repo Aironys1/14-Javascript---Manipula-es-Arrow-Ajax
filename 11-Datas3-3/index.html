@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datas3-3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 id="titulo">Datas3-3</h1>
+
+    <div>
+      <p>Para trocar as datas, usamos a função <em>d.setMonth(05)</em></p>
+      <span>let d = new Date(); let novoVAlor = d; d.setMonth(11) </span>
+    </div>
+    <div>
+      <p>Para ver as datas a partir de uma data de hoje</p>
+      <span>d.setDate(d.getDate() +5) </span>
+    </div>
+
+    <div>
+      <p>Daqui a 80 horas será:</p>
+      <span>d.setHours(d.getHours() +80) </span>
+    </div>
+
+    <div>
+      <p>Colocando um ano fixo de 1900</p>
+      <p>E aumentando, daqui á 80 anos</p>
+      <span
+        >let d = new Date('1900'); let novoVAlor = d;
+        d.setFullYear(d.getFullYear() +80)
+      </span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

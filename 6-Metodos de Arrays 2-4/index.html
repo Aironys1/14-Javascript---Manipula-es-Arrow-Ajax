@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos de Arrays 2-4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="titulo">Métodos de Arrays 2-4</h1>
+
+
+    <div>
+        <code>
+            let lista = ['Computador', 'Teclado','Fone','Mouse','Monitor']; <br>
+            let res = lista;<br>
+            lista.splice(1,2) <br>// Removendo item apartir do indice, 1/2, do 1 ao 2.<br>
+
+            console.log(lista);<br>
+            console.log(lista.length); <br>// Tamanho de 5 indice
+            console.log(lista.join('-'));<br> // Colocando um traço entre a lista<br>
+            console.log(lista.slice(1));<br> // Removendo o item 1 da lista "Computador";<br>
+            console.log(lista.indexOf('Fone')) <br>// Selecionando o item fone a lista
+
+        </code>
+    </div>
+
+    <div>
+        <code>
+            let lista = ['Computador', 'Teclado','Fone','Mouse','Monitor'];
+            let lista2 = ['Microfone', 'Gabinete','Celular','Controle'];
+
+            let res = lista.concat(lista2);
+            console.log(res); // concat vai juntar os 2 arrays
+
+
+        </code>
+
+        <p>concat vai juntar os 2 arrays</p>
+    </div>
+
+    <div>
+        <code>
+            let lista = ['Computador', 'Teclado','Fone','Mouse','Monitor', 'Televisão', 'Fonte'];
+            lista.sort(); // Para ordenar a lista em ordem alfabetica
+            lista.reverse(); // Para reverter a ordem da lista
+            let res = lista;
+
+            console.log(res);
+
+
+        </code>
+        <p>Para ordenar a lista: lista.sort();  <br>  E reverter a sua ordem:   lista.reverse();</p>
+    </div>
+
+    <div>
+        <code>
+            lista.splice() 
+            <p>.splice serve para remover um item</p>
+        </code>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

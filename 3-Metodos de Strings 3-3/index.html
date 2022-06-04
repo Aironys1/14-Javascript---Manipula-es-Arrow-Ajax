@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos de Strings 3-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="titulo">Métodos de Strings 3-3</h1>
+    <p>Exemplo 1</p>
+
+    <div>
+        <code>
+            let nome ="Aironys Garrido de Macedo";<br>
+            let resultado = nome.replace('Aironys','Ans')<br>
+            console.log(resultado);  <br>
+
+            // O replace ele paga uma palavra e vc substitui por outra.
+
+        </code>
+    </div>
+
+    <div>
+        <code>
+            let nome2 = "Eu gosto de x";<br>
+            let resultado2 = nome2.replace(' x',' Estudar');<br>
+            console.log(resultado2);<br> // Eu substituu uma parte da string por outro texto.<br>
+        </code>
+    </div>
+
+    <div>
+        <code>
+            let nome3 = "Vamos deixar as letra Maiusculas";<br>
+            let resultado3 = nome3.toUpperCase();<br>
+            console.log(resultado3);<br> // Função para deixar a letra Maiusculas<br>
+
+        </code>
+    </div>
+    <div>
+        <code>
+            let nome4 = "Vamos deixar as letra Minusculas";<br>
+            let resultado4 = nome4.toLowerCase();<br>
+            console.log(resultado4); <br>// Função para deixar a letra Maiusculas<br>
+
+        </code>
+    </div>
+    <div>
+        <code>
+            let nome5 = "Vamos concatenar";<br>
+            let resultado5 = nome5.concat(': ','Macedo');<br>
+            console.log(resultado5); <br>// Função para concatenar<br>
+        </code>
+    </div>
+    <div>
+        <code>
+            let nome6 = "Vamos remover espaços";<br>
+            let resultado6 = nome6.trim().length;<br>
+            console.log("Removendo "+resultado6); <br>// Removendo espaços das palavras
+
+        </code>
+    </div>
+    <div>
+        <code>
+            let nome7 = "SelecionAndo o valor de acordo com sua posição";<br>
+            let resultado7 = nome7.charAt('8');<br>
+            console.log(resultado7);<br> //Como saber o valor na sua posição, parecido como um Array.
+        </code>
+    </div>
+
+    <div>
+        <code>
+            let nome8 = "Dividir no meio com o split";<br>
+            let resultado8 = nome8.split(' ');<br>
+            console.log(resultado8);<br> // Essa função divide todos os valores, por palavras, letras, textos. Da forma que
+            vc específicar.
+        </code>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

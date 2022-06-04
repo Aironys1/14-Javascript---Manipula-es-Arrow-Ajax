@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>18-Descontruindo Arrays</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 id="titulo">18-Descontruindo Arrays</h1>
+
+    <div>
+      <code>
+        let info = ['Aironys Garrido', 'Macedo', '@aironn','aironys1']; let
+        [nomeCompleto, , email] = info; console.log(nomeCompleto, email);
+      </code>
+    </div>
+
+    <div>
+      <code>
+        let [nome, sobrenome, idade=31] = ["Garrido", "Macedo"];
+        console.log(nome, sobrenome, idade);
+      </code>
+    </div>
+
+    <div>
+      <code>
+        function criar(){ let a = [1,2,3]; return a; } let [a,b,c] = criar();
+        console.log(a,b,c)
+      </code>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

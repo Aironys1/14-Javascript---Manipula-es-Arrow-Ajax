@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos de Numbers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="titulo">Métodos de Numbers</h1>
+
+    <div>
+        <code>
+            let n = 10;
+            let res = n.toString();
+            console.log(res);
+
+            <p>toString(); // Serve para tranformar um decimal em uma string</p>
+        </code>
+    </div>
+
+    <div>
+        <code>
+            let n = 10.1548;
+            let res = 'R$ '+ n.toFixed(2);
+            console.log(res);
+            <p>toFixed(2); // Serve para especificar a quantidade de decimal depois do ponto. 2 casas decimais</p>
+        </code>
+    </div>
+
+    <div>
+        <code>
+            let n = '25';
+            let res = parseInt(n) + 5;
+            console.log(res);
+
+            <p>parseInt(5); // Também é outra forma de tranformas uma string em decimal</p>
+        </code>
+    </div>
+
+    <div>
+        <code>
+            let n = '25.99';
+            let res = parseFloat(n) + 5;
+            console.log(res);
+
+            <p>parseFloat// é pra manter o Float, 12.99 ou 7.39</p>
+        </code>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

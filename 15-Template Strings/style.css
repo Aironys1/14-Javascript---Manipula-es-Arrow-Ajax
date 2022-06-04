@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(140, 176, 172);
+}
+
+p {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 30px;
+  color: #ded6d6;
+}
+
+code{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(245, 87, 19);
+}
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+div {
+  padding:20px;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background-color:#7fd7e6;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size:1rem;
+}
+
+.relogio{
+  display: flex;
+  gap: 1rem;
+  justify-content:center;
+  margin: 10px;
+}
+
+.demo{
+  display: block;
+  text-align: center;
+  background-color: #9edbe6;
+  color: rgb(255, 255, 255);
+  font-size:2rem;
+  border-radius: 100px;
+  max-width: 370px;
+ 
+
+}
+
+.demo img {
+  width:90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.relogio-pulso{
+ display: flex;
+ justify-content: center;
+}
+.relogio-pulso img{
+
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;  
+  display: block;
+  border: 2px solid #7fd7e6;
+  border-radius: 60px;
+  padding:10px;
+}

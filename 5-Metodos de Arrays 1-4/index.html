@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos de Arrays 1-4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="titulo">Métodos de Arrays 1-4</h1>
+
+    <div>
+        <code>
+            let lista = ['Ovo','Farinha','Corante','Massa'];
+            let res = lista.join('-');
+            console.log(res); <br>
+
+
+            let res = lista.join('/');
+
+            <p>Join ele pega os arrays, e juntas eles, separando os. Podemos acrescentar um traço entre os Arrays</p>
+
+        </code>
+    </div>
+
+
+    <div>
+        <code>
+            let lista = ['Ovo','Farinha','Corante','Massa'];
+            let res = lista.indexOf('Farinha');
+            console.log(res);
+        </code>
+
+        <p>indexOf('item')// Para achar seu item no arrays</p>
+    </div>
+
+    <div>
+        <code>
+            let lista = ['Ovo','Farinha','Corante','Massa'];
+            lista.pop();
+            let res = lista;
+            console.log(res);
+        </code>
+        <p>lista.pop(); // Remove o ultimo item do array</p>
+        <p>lista.shift(); // Remove o primeiro item.</p>
+    </div>
+
+
+    <div>
+        <code>
+            let lista = ['Ovo','Farinha','Corante','Massa'];
+            lista.shift(); // Remove o primeiro item.
+            lista.pop(); // Remove o ultimo item.
+            let res = lista;
+            console.log(res);
+            <p>Exemplo</p>
+        </code>
+    </div>
+
+    <div>
+        <code>
+            let lista = ['Ovo','Farinha','Corante','Massa'];
+            lista.push('Leite'); // Vai adcionar um novo item no Array
+            let res = lista;
+            console.log(res);
+
+        </code>
+        <p> lista.push('item')// Vai adcionar um novo item no Array</p>
+    </div>
+
+
+
+    <div>
+        <code>
+            let lista = ['Ovo','Farinha','Corante','Massa'];
+            lista[0] = 'Agua';
+            let res = lista;
+            console.log(res);
+        </code>
+
+        <p>Podemos alterar tambem usando o indice no array. </p>
+        <p>lista[0] = 'Agua';</p>
+        <p>Podemos criar outro indice, <br> lista[4] = 'Agua';
+        </p>
+    </div>
+
+    <div>
+        <code>
+            et lista = ['Ovo','Farinha','Corante','Massa'];
+            lista[lista.length] = 'batadeira';
+            let res = lista;
+            console.log(res);
+
+        </code>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

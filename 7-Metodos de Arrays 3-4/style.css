@@ -1,0 +1,28 @@
+body {
+  background-color: cadetblue;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 30px;
+  color: rgb(221, 93, 93);
+}
+
+span{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(172, 166, 243);
+}
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+  color: blue;
+}
+
+div {
+  margin: 30px;
+  background-color: rgb(24, 61, 131);
+  padding: 40px;
+}

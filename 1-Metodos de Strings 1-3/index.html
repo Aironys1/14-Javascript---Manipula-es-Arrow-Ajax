@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos de Strings 1-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="titulo">Métodos de Strings 1-3</h1>
+    <p>Exemplo 1</p>
+
+    <div>
+        <code>
+            let nome = "Aironys Garrido de Macedo"; <br>
+            let resultado = profissao = "Desenvolvedor da Web";<br>
+
+
+            console.log("A quantidade de letras na palavra é:"+nome.length);<br>
+            console.log("A quantidade de letras na palavra é:"+ resultado.length);<br>
+
+            console.log(resultado.indexOf("Web")); <br> // IndexOf é para localizar a posição da palavra. Podemos achar
+            palavras,
+            letras, números e espaços, de acordo com suas posições.<br>
+            console.log(resultado.indexOf("Desenvolvedor"));<br><br>
+
+            if(nome.indexOf("Macedo") && (nome.indexOf("Aironys")) > -1){<br>
+            console.log("- Achou !!!");<br>
+            }else{<br>
+            console.log("Não Achou !!!");<br>
+            }<br>
+        </code>
+    </div>
+
+    <div>
+
+        <code>
+            let empresa = "Aironn Dev"; <br>
+            let localizacao = "São Paulo";<br>
+            let fundacao = "20/04/2022";<br>
+            let resultado2 = " ";<br><br>
+
+
+            console.log(fundacao);<br>
+            resultado2 = empresa.indexOf("Dev");<br>
+            console.log(resultado2);<br>
+
+            console.log(localizacao.indexOf("u"));<br>
+            // Letra "u", posição 6<br>
+        </code>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

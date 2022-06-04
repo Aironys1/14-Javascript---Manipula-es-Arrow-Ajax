@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Métodos de Arrays 3-4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 id="titulo">Métodos de Arrays 3-4</h1>
+
+    <div>
+      <p>Primeira forma, usando o map, ele mapea todo o array.</p>
+      <span>let lista = [45,4,9,16,25]; let lista2 = [];</span>
+    </div>
+
+    <div>
+      <p>Segunda forma</p>
+      <span> for(let i in lista){ lista2.push(lista[i] + 100); } </span>
+    </div>
+
+    <div>
+      <p>Usando o filter ele vai retornar true ou false.</p>
+       <span>
+        lista2 = lista.filter(function(item){
+            if(item<30){
+                return true;
+            }else{
+                return false;
+            }
+        });
+        
+       </span>
+       <p>O filter faz um filtro, podemos usar o if e else, para poder fitrar os item necessários.</p>
+    </div>
+
+    <div>
+        <p>Usando  o every, ele fala para pegar todo mundo</p>
+        <span>
+            lista2 = lista.every(function(item){
+                if(item<40){
+                    return true;
+                }else{
+                    return false;
+                }
+            });
+        </span>
+        <p>Mas irá dar falso, pois nem todos os item são menor que 40.</p>
+    </div>
+
+    <div>
+        <p>Usando  a fução (some), significa alguns items </p>
+        <span>
+            lista2 = lista.some(function(item){
+                if(item<40){
+                    return true;
+                }else{
+                    return false;
+                }
+            });
+            
+        </span>
+        <p>Será verdadeiro na saída, pois alguns items são menor que 40.</p>
+    </div>
+
+    <div>
+        <p>Uma forma melhor para simplicar o return</p>
+        <span>return (item <40)? true : false;</span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
